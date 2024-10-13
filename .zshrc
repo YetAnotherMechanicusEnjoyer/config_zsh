@@ -7,6 +7,10 @@ ZSH_THEME="xiong-chiamiov-plus"
 
 plugins=( 
     git
+    git-commit
+    git-prompt
+    kitty
+    sudo
     zsh-autosuggestions
     zsh-syntax-highlighting
 )
@@ -18,15 +22,20 @@ source $ZSH/oh-my-zsh.sh
 # Project page: https://gitlab.com/phoneybadger/pokemon-colorscripts#on-other-distros-and-macos
 pokemon-colorscripts --no-title -s -r
 
+YEAR1="EPITECH/yerre1"
+POOL="poule"
+RUSH="reuche"
+GIT_PATH="Git/config_zsh"
+
 #Git Epitech
-alias pissine="cd /home/magos/delivery/poule"
-alias reuche_tah_le_minijeu_minecraft="cd /home/magos/delivery/reuche"
+alias pissine="cd $HOME/$DELIVERY/$POOL"
+alias reuche_tah_le_minijeu_minecraft="cd $HOME/$DELIVERY/$RUSH"
 
 #Git Push
-alias train_de_la_hype="sh /home/magos/Documents/Sh/push_that.sh"
+alias train_de_la_hype="sh $HOME/$GIT_PATH/push_that.sh"
 
 #Server
-alias http_python_server="sh /home/magos/Documents/Sh/pythonhttpserver.sh"
+alias http_python_server="sh $HOME/$GIT_PATH/pythonhttpserver.sh"
 
 #coding style
 alias gestapo="coding-style . ."
@@ -36,8 +45,7 @@ alias censure="expulsion_du_territoire coding-style-reports.log"
 #rm
 alias expulsion_du_territoire="rm"
 alias rn="rm"
-alias grand_remplacement="sh /home/magos/Documents/Sh/mr_clean"
+alias grand_remplacement="sh $HOME/$GIT_PATH/mr_clean"
 
 #ls
 alias camp_de_concentration="ls"
-
