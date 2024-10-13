@@ -1,0 +1,1 @@
+find -name '*.o' -delete -or -name '*.a' -delete -or -name '*~' -delete -or -name '#*#' -delete -or -name '*.swp' -delete -or -name '*.log' -delete
