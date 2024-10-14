@@ -32,10 +32,10 @@ source $ZSH/oh-my-zsh.sh
 # Project page: https://gitlab.com/phoneybadger/pokemon-colorscripts#on-other-distros-and-macos
 pokemon-colorscripts --no-title -s -r
 
-YEAR1="EPITECH/yerre1"
-POOL="poule"
-RUSH="reuche"
-GIT_PATH="Git/config_zsh"
+YEAR1=""
+POOL=""
+RUSH=""
+GIT_PATH=""
 
 #Git Epitech
 alias pissine="cd $HOME/$DELIVERY/$POOL"
